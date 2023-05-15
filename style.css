@@ -190,3 +190,21 @@
     width: 60px;
     height: 20px;
 }
+
+@keyframes ex12{
+    0%{
+        left: 10%;
+
+
+    }
+    100%{
+        left: 60%;
+
+    }
+
+}
+
+.ex-12-top-white, .ex-12-bottom-white{
+    animation: ex12 1s infinite;
+
+}
